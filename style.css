@@ -181,3 +181,183 @@ body {
         top: 270px;
     }
 }
+
+
+
+                /*iPad Media Query*/
+
+
+
+@media screen and (max-width: 1024px) {
+    #background-img {
+        background-image: url(images/background-img.png);
+        width: 414px;
+        height: 270px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    #navbar-marques a {
+        text-decoration: none;
+        font-family: 'Montserrat SemiBold';
+        font-size: 10px;
+        position: absolute;
+        left: 16px;
+        top: 7px;
+        color: #f4f4f4;
+        opacity: 90%;
+        transition: 0.7s;
+    }
+
+    #navbar-marques a:hover {
+        opacity: 100%;
+    }
+
+    #navbar-brownlee a {
+        font-family: 'Montserrat SemiBold';
+        text-decoration: none;
+        font-size: 6px;
+        position: absolute;
+        left: 16px;
+        top: 19px;
+        color: #f4f4f4;
+        opacity: 90%;
+        transition: 0.7s;
+    }
+
+    #navbar-brownlee a:hover {
+        opacity: 100%;
+    }
+
+    #navbar-portfolio ul, li {
+        list-style: none;
+    }
+
+    #navbar-portfolio a {
+        text-decoration: none;
+        color: #f4f4f4;
+        font-size: 6px;
+        font-family: 'Montserrat SemiBold';
+        position: absolute;
+        left: 162px;
+        top: 13px;
+        opacity: 90%;
+        transition: 0.7s;
+    }
+
+    #navbar-portfolio a:hover {
+        opacity: 100%;
+    }
+
+    #navbar-about ul, li {
+        list-style: none;
+    }
+
+    #navbar-about a {
+        text-decoration: none;
+        font-family: 'Montserrat SemiBold';
+        font-size: 6px;
+        position: absolute;
+        left: 199px;
+        top: 13px;
+        color: #f4f4f4;
+        transition: 0.7s;
+        opacity: 90%;
+    }
+
+    #navbar-about a:hover {
+        opacity: 100%;
+    }
+
+    #navbar-contact ul, li {
+        list-style: none;
+    }
+
+    #navbar-contact a {
+        text-decoration: none;
+        color: #f4f4f4;
+        font-family: 'Montserrat SemiBold';
+        font-size: 6px;
+        position: absolute;
+        left: 228px;
+        top: 13px;
+        transition: 0.7s;
+        opacity: 90%;
+    }
+
+    #navbar-contact a:hover {
+        opacity: 100%;
+    }
+
+    #navbar-hamburger a {
+        background-image: url(images/navbar-hamburger.png);
+        width: 11px;
+        height: 3.63px;
+        position: absolute;
+        left: 390px;
+        top: 15px;
+        opacity: 90%;
+        transition: 0.7s;
+    }
+
+    #navbar-hamburger a:hover {
+        opacity: 100%;
+    }
+
+    #mkbhd {
+        font-family: 'Montserrat SemiBold';
+        font-size: 26px;
+        position: absolute;
+        left: 46px;
+        top: 73px;
+        color: #f4f4f4;
+    }
+
+    #web {
+        font-family: 'Montserrat SemiBold';
+        font-size: 16px;
+        position: absolute;
+        left: 46px;
+        top: 105px;
+        color: #f4f4f4;
+    }
+
+    #developer {
+        font-family: 'Montserrat SemiBold';
+        font-size: 16px;
+        position: absolute;
+        left: 89px;
+        top: 105px;
+        color: #6BFF58;
+    }
+
+    #btn-1 button {
+        border-radius: 1px;
+        width: 28px;
+        height: 9px;
+        color: #f4f4f4;
+        font-family: 'Montserrat SemiBold';
+        font-size: 3.8px;
+        position: absolute;
+        left: 148px;
+        top: 132px;
+        background-color: transparent;
+        border: 1px solid #f4f4f4;
+        cursor: pointer;
+    }
+
+    #btn-1 button:active {
+        background-color: #f4f4f4;
+        color: #1d1d1d;
+    }
+
+    #blue-line-1 {
+        background-image: url(images/blue-line-1-414.png);
+        width: 414px;
+        height: 14px;
+        position: absolute;
+        left: 0px;
+        top: 270px;
+    }
+}
